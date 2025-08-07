@@ -198,6 +198,7 @@ li {
   visibility: hidden;
   transition: opacity 0.2s ease, transform 0.4s ease;
   transform: translateY(20px);
+  box-shadow: 0px 2px 5px 0px #7a7a7a;
 }
 .go-top img {
   height: 40px;
