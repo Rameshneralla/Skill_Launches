@@ -6,6 +6,7 @@
   --sub-header-bg: #F6F4EE;
   --font-color: #060318;
   --nav-link-color: #5E6670;
+  --card-bg: #F7F8FB;
 }
 
 body {
@@ -134,12 +135,17 @@ li {
 
 /* Footer Styles End  */
 .content-section {
-  margin-top: 9rem;
+  margin-top: 6.6rem;
+}
+
+.aboutus.content-section {
+  margin-top: 3.6rem;
+
 }
 
 .section-title {
   text-align: center;
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .section-title .title-label {
@@ -157,6 +163,61 @@ li {
   text-align: center;
 }
 
+.banner-main-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: var(--white);
+}
+
+.banner-sub-content {
+  font-size: 15px;
+  color: var(--white);
+}
+
+/* .aboutus-banner-section{
+  background-image: url('../assets/images/about-us-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+} */
+.trusted-companies ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  justify-content: space-evenly;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.banner-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.about-card {
+  background-color: var(--card-bg) !important;
+  padding: 1.5rem;
+  border-radius: 12px !important;
+  border: 1px solid #E3E3E3 !important;
+}
+
+.sub-title {
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
 .sticky {
   position: fixed;
   z-index: 9;
@@ -165,6 +226,93 @@ li {
   right: 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   animation: slideDown 1s ease forwards;
+}
+
+.hired-score-card {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: fit-content;
+}
+
+.hired-score-card img {
+  height: 30px;
+  margin-bottom: 0.4rem;
+}
+
+.hired-score-value {
+  font-weight: 600;
+  color: #202430;
+  margin-bottom: 0rem;
+
+}
+
+.hired-text {
+  color: var(--font-color);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.about-testimony-img {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.about-testimony-img img {
+  max-width: 280px;
+}
+
+.about-testimony-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 290px;
+  position: absolute;
+  right: 70px;
+  top: 90px;
+}
+
+.name {
+  color: #202430;
+  font-size: 15px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.designation {
+  color: #202430;
+  font-size: 14px;
+}
+
+.testimony-content {
+  max-width: 70%;
+  margin-left: auto;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #202430;
+}
+
+.testimony-user-img {
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+
+.more-info {
+  background-color: var(--card-bg) !important;
+  padding: 2rem 0 0.5rem 0;
+  margin-top: 15rem;
+}
+
+.about-sub-card {
+  border: 1px solid #E3E3E3;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: var(--white);
+  margin-bottom: 1.5rem;
+  min-height: 200px;
 }
 
 @keyframes slideDown {
@@ -188,6 +336,28 @@ li {
   transform: translateY(0);
 }
 
+.horizontalanimationleft {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.8s ease-out;
+}
+
+.horizontalanimationright {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.8s ease-out;
+}
+
+.horizontalanimationleft.visible {
+  opacity: 1 !important;
+  transform: translateX(0);
+}
+
+.horizontalanimationright.visible {
+  opacity: 1 !important;
+  transform: translateX(0);
+}
+
 .go-top {
   position: fixed;
   bottom: 5%;
@@ -200,11 +370,13 @@ li {
   transform: translateY(20px);
   box-shadow: 0px 2px 5px 0px #7a7a7a;
 }
+
 .go-top img {
   height: 40px;
   padding: 0.4rem;
   filter: brightness(1) invert(1);
 }
+
 #scrollTopBtn.visible {
   opacity: 1;
   visibility: visible;

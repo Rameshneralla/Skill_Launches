@@ -1,5 +1,48 @@
-@media (max-width: 991px){
+@media (max-width: 991px) {
     .header-buttons {
         padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutus-banner-section {
+        background: #4640de;
+        padding: 3rem 0;
+    }
+
+    .desk-about-img {
+        display: none;
+    }
+
+    .banner-section {
+        position: inherit;
+        transform: none;
+    }
+
+    .about-img {
+        margin-top: 3rem;
+    }
+
+    .about-testimony-card {
+        right: 0;
+        top: -186px;
+    }
+
+    .hired-score-card {
+        margin: 1rem auto;
+    }
+
+    .about-testimony-img {
+        position: inherit;
+        left: auto;
+    }
+
+    .testmony-user-img {
+        position: absolute;
+        right: 20px;
+        top: -30px;
+    }
+    .more-info{
+        margin-top: 1.5rem;
     }
 }
