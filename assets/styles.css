@@ -158,9 +158,10 @@ li {
 }
 
 .page-title {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 400;
   text-align: center;
+  color: var(--white);
 }
 
 .banner-main-title {
@@ -174,12 +175,6 @@ li {
   color: var(--white);
 }
 
-/* .aboutus-banner-section{
-  background-image: url('../assets/images/about-us-bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 4rem 0;
-} */
 .trusted-companies ul {
   display: flex;
   gap: 20px;
@@ -306,6 +301,11 @@ li {
   margin-top: 15rem;
 }
 
+.section-bg {
+  background-color: var(--card-bg) !important;
+  padding: 2rem 0 0.5rem 0;
+}
+
 .about-sub-card {
   border: 1px solid #E3E3E3;
   border-radius: 4px;
@@ -381,4 +381,75 @@ li {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+.page-banner {
+  background-image: url('../assets/images/page-banner.svg');
+  background-position: center;
+  background-size: contain;
+  padding: 3rem 0;
+}
+
+.business-object {
+  padding: 2rem;
+  border: 5px solid var(--white);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.business-obj-content {
+  font-weight: 700;
+}
+
+.business-obj-sub-text {
+  font-size: 13px;
+  font-weight: 400;
+  max-width: 250px;
+  margin: auto;
+}
+
+.skill-launches-team {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.team-member-details {
+  text-align: center;
+}
+
+.team-member-details .card {
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.team-member-details .card:hover {
+  scale: 1.1;
+  box-shadow: 3px 3px 12px 0px #d1d1d1;
+}
+
+.team-member-details img {
+  max-width: -webkit-fill-available;
+  margin: auto;
+}
+
+.team-member-name {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+.team-member-designatiion {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.holded-values{
+  background-image: url('../assets/images/holded-bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;  
+}
+.holded-values h6, p{
+  margin-bottom: 0.5rem;
 }
