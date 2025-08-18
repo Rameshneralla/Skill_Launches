@@ -424,8 +424,8 @@ li {
 }
 
 .team-member-details .card:hover {
-  scale: 1.1;
-  box-shadow: 3px 3px 12px 0px #d1d1d1;
+  scale: 1.04;
+  box-shadow: 3px 3px 12px 0px #0e0c9173
 }
 
 .team-member-details img {
