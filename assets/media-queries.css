@@ -42,10 +42,63 @@
         right: 20px;
         top: -30px;
     }
-    .more-info{
+
+    .more-info {
         margin-top: 1.5rem;
     }
-    .team-member-details .card{
+
+    .team-member-details .card {
         margin-bottom: 1.5rem;
+    }
+
+    .contact-form {
+        margin: 1.5rem auto;
+        max-width: 100%;
+    }
+
+    .location-globe {
+        display: none;
+    }
+
+    .location-section {
+        padding: 1rem 3rem;
+    }
+
+    .contact-address {
+        padding: 0 !important;
+    }
+
+    .location-content {
+        position: inherit;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+        width: auto;
+        height: auto;
+        padding: 1.5rem 1.5rem 0 !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1050px) {
+    .contact-address {
+        padding: 2rem 0 0 2rem !important;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .location-globe {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 890px) {
+    .location-globe {
+        max-width: 300px;
+    }
+
+    .contact-address .sub-title {
+        font-size: 18px;
+        margin-bottom: 1rem;
     }
 }

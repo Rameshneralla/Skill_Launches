@@ -443,37 +443,96 @@ li {
   font-size: 14px;
   margin-bottom: 0;
 }
-.holded-values{
+
+.holded-values {
   background-image: url('../assets/images/holded-bg.svg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5rem 0;  
+  padding: 5rem 0;
 }
-.holded-values h6, p{
+
+.holded-values h6,
+p {
   margin-bottom: 0.5rem;
 }
+
 /* Contact Screen Styles */
-.contact-form{
-     background-color: #e3e3e3;
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 400px;
-    margin: -10rem auto;
+.contact-form {
+  background-color: #e3e3e3;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: -10rem auto;
 }
-.contact-card-header{
+
+.contact-card-header {
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 1.5rem;
 }
-.form-group{
+
+.form-group {
   margin-bottom: 1rem;
 }
-.form-group label{
+
+.form-group label {
   font-weight: 600;
   font-size: 15px;
 }
-.form-control,.form-select{
+
+.form-control,
+.form-select {
   box-shadow: none !important;
   font-size: 14px !important;
+}
+
+.contact-custom-card {
+  background-color: #E9F3FF;
+  padding: 1.2rem;
+  border-radius: 8px;
+}
+
+.contact-card-content {
+  line-height: 2;
+}
+
+.contact-card-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 8px 0;
+}
+
+.theme-bg {
+  background-image: url('../assets/images/theme-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.location-section {
+   background-image: url('../assets/images/location-section-bg.png');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem;
+}
+.location-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 85%;
+  border: 1px solid #f1f1f1;
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+}
+.location-globe{
+      position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 500px;
+}
+.contact-address {
+  padding: 2rem 0 0 2.5rem !important;
 }
