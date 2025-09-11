@@ -511,12 +511,14 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .location-section {
-   background-image: url('../assets/images/location-section-bg.png');  
+  background-image: url('../assets/images/location-section-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 14rem;
 }
+
 .location-content {
   position: absolute;
   top: 50%;
@@ -528,76 +530,128 @@ p {
   backdrop-filter: blur(8px);
   border-radius: 8px;
 }
-.location-globe{
-      position: absolute;
-    right: 0;
-    bottom: 0;
-    max-width: 500px;
+
+.location-globe {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 500px;
 }
+
 .contact-address {
   padding: 2rem 0 0 2.5rem !important;
 }
+
 /* Home Page Styles  */
-.home-banner-section{
+.home-banner-section {
   background-color: #F7F7F8;
 }
-.home .banner-main-title{
+
+.home .banner-main-title {
   color: #18191C;
 }
-.home .banner-sub-content{
+
+.home .banner-sub-content {
   color: #5E6670;
 }
-.search-boxes{
+
+.search-boxes {
   display: flex;
   border: 2px solid #e1e1e1;
   border-radius: 8px;
   padding: 0.5rem;
   background-color: var(--white);
 }
-.search-boxes .search-icon{
+
+.search-boxes .search-icon {
   position: absolute;
   top: 8px;
   height: 18px;
   left: 10px;
 }
-.search-boxes input{
+
+.search-boxes input {
   border: none;
   padding-left: 2.4rem;
 }
-.find-job-btn{
+
+.find-job-btn {
   min-width: max-content;
 }
-.search-field-divider{
+
+.search-field-divider {
   border-left: 2px solid #e1e1e1;
 }
-.home-banner-label{
+
+.home-banner-label {
   display: flex;
   background-color: var(--white);
   border-radius: 8px;
   padding: 0.8rem;
 }
-.home-banner-label .label-icon{
+
+.home-banner-label .label-icon {
   align-self: center;
   background: #E7F0FA;
   padding: 0.5rem;
   border-radius: 4px;
 }
-.top-copanies-icon-bg{
+
+.top-copanies-icon-bg {
   background: var(--primary-color) !important;
 }
-.home-banner-label .label-icon img{
+
+.home-banner-label .label-icon img {
   height: 40px;
 }
-.home-banner-label .sub-title{
+
+.home-banner-label .sub-title {
   margin-bottom: 0.2rem;
-    font-size: 18px;
+  font-size: 18px;
 }
-.home-banner-label .label-content{
+
+.home-banner-label .label-content {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0;
 }
-.home-banner-label .content-space{
+
+.home-banner-label .content-space {
   align-self: center;
   margin-left: 1rem;
+}
+
+.flow-chat-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem;
+  border-radius: 100px 10px 100px 10px;
+}
+
+.flow-section-list {
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+  gap: 15px;
+  position: relative;
+  padding-left: 0;
+}
+
+.flow-section-list h6,
+p {
+  color: #f2f2f2;
+}
+
+.flow-section-list h6 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.flow-section-list p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.flow-section {
+  text-align: center;
 }

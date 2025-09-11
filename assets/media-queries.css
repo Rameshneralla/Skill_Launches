@@ -2,6 +2,15 @@
     .header-buttons {
         padding-left: 0;
     }
+    .flow-section-list {
+        display: block;
+    }
+    .flow-section {
+        margin-bottom: 2rem;   
+     }
+    .banner-main-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -9,7 +18,9 @@
         background: #4640de;
         padding: 3rem 0;
     }
-
+.home-banner-label{
+    margin-bottom: 1.5rem;
+}
     .desk-about-img {
         display: none;
     }
