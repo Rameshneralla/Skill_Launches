@@ -11,8 +11,25 @@
     .banner-main-title {
         font-size: 30px;
     }
+    .mobile-view{
+        display: block;
+    }
+    .desk-view{
+        display: none;
+    }
+    .testimonial-card{
+        width: 95%;
+        margin: auto;
+    }
 }
-
+@media (min-width:992px){
+     .mobile-view{
+        display: none;
+    }
+    .desk-view{
+        display: block;
+    }
+}
 @media (max-width: 767px) {
     .aboutus-banner-section {
         background: #4640de;
@@ -112,4 +129,18 @@
         font-size: 18px;
         margin-bottom: 1rem;
     }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .home-banner-label .label-icon img {
+    max-height: 28px;
+}
+.home-banner-label .label-icon{
+    padding: 0.1rem;
+}
+.popular-category .sub-title{
+    font-size: 12px;
+}
+.popular-category .label-content{
+    font-size: 10px;
+}
 }

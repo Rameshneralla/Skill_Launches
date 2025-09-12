@@ -166,7 +166,7 @@ li {
 
 .banner-main-title {
   font-weight: 500;
-  font-size: 45px;
+  font-size: 40px;
   color: var(--white);
 }
 
@@ -544,7 +544,8 @@ p {
 
 /* Home Page Styles  */
 .home-banner-section {
-  background-color: #F7F7F8;
+  background-color: #fcfefc;
+  border-top: 8px solid #f5f5f5;
 }
 
 .home .banner-main-title {
@@ -574,7 +575,10 @@ p {
   border: none;
   padding-left: 2.4rem;
 }
-
+.banner-sub-section{
+  background-color: #f5f5f5;
+  padding: 1.5rem 0;
+}
 .find-job-btn {
   min-width: max-content;
 }
@@ -636,22 +640,233 @@ p {
   padding-left: 0;
 }
 
-.flow-section-list h6,
-p {
-  color: #f2f2f2;
-}
 
 .flow-section-list h6 {
   font-weight: 500;
   font-size: 18px;
   margin-top: 1rem;
+  color: #f2f2f2;
 }
 
 .flow-section-list p {
   font-size: 14px;
   margin-bottom: 0;
+  color: #f2f2f2;
 }
 
 .flow-section {
   text-align: center;
+}
+
+.popular-category {
+  background-color: #F8F8FD;
+  padding: 2rem 0;
+}
+
+.black-title {
+  color: #18191C;
+}
+
+.popular-category .label-content {
+  color: #5E6670;
+}
+
+.popular-category .home-banner-label {
+  border: 1px solid #E0E0E0;
+  margin-bottom: 1.5rem;
+}
+
+.popular-category .label-icon {
+  background-color: #E7F0FA !important;
+}
+
+.popular-category .sub-title {
+  font-size: 16px;
+}
+
+.popular-category .label-content {
+  font-size: 13px;
+}
+
+.view-btn {
+  float: right;
+}
+
+.view-btn button {
+  font-weight: 900 !important;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  color: var(--primary-color);
+  ;
+}
+
+.view-btn button img {
+  height: 20px;
+}
+
+.view-btn button:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.view-btn button:hover>img {
+  filter: brightness(5);
+}
+
+.featured-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.featured-card-header {
+  display: flex;
+  padding: 0.8rem 0.8rem 0.8rem 0.4rem;
+  justify-content: space-between;
+}
+
+.featured-card-header img {
+  height: 30px;
+}
+
+.featured-card-body {
+  padding: 0.1rem 0.8rem 0.8rem 0.8rem;
+}
+
+.job-type-label {
+  border: 1px solid var(--primary-color);
+  height: fit-content;
+  font-size: 12px;
+  color: var(--primary-color);
+  padding: 0px 5px;
+}
+
+.featured-tile {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+.featured-sub-title {
+  font-size: 12px;
+}
+
+.featured-content {
+  color: #7C8493;
+  font-size: 12px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.marketing-label {
+  color: #FFB836;
+  background-color: #EB85331A;
+}
+
+.design-label {
+  color: #56CDAD;
+  background-color: #56CDAD1A;
+}
+
+.business-label {
+  color: #4640DE;
+  background-color: #4640DE1A;
+}
+
+.technology-label {
+  color: #FF6550;
+  background-color: #FF65501A;
+}
+
+.featured-footer span {
+  border-radius: 26px;
+  font-size: 10px;
+  padding: 3px 10px;
+  margin-right: 0.6rem;
+}
+
+.featured-footer {
+  padding: 0 0.8rem 0.8rem;
+}
+
+.testimonial-section {
+  padding: 2rem 0 3rem;
+  background-color: #F1F2F4;
+}
+.small-header{
+  font-weight: 800;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.recruitment-experts-title{
+ font-size: 30px;
+}
+.recruitment-experts-section .label-icon{
+      background: transparent !important;
+    padding: 0;
+}
+.recruitment-experts-section .home-banner-label{
+border: 1px solid #ccc;
+padding: 0.6rem;
+margin-bottom: 1.5rem;
+}
+.recruitment-experts-section .label-content{
+  font-size: 10px;
+}
+.recruitment-experts-section .sub-title{
+  font-size: 15px;
+}
+.f-center{
+  float: none !important;
+}
+/* Testimonial Style */
+.testimonial-card{
+  width: 33.333%;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.carousel-inner{
+  text-align: center;
+  padding: 0 5rem;
+}
+.carousel-item-custom{
+  display: flex !important;
+    gap: 20px;
+}
+.testimonial{
+  margin: 1rem 0;
+  color: #333;
+  font-size: 14px;
+}
+.testimonial-footer{
+  display: flex;
+  justify-content: space-between;
+      margin-top: 1.5rem
+}
+.testimonial-footer img{
+  margin-right: 1rem;
+}
+.client-name{
+  margin-bottom: 0 !important;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.client-designation{
+  font-size: 12px;
+  font-weight: 500;
+  color: #767E94;
+}
+.carousel-indicators{
+    bottom: -50px !important;
+}
+.quote-img{
+  margin-right: 0 !important;
+    max-width: 40px;
+    vertical-align: text-top;
 }
