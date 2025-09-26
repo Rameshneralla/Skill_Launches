@@ -555,13 +555,20 @@ p {
 .home .banner-sub-content {
   color: #5E6670;
 }
-
+.search-section{
+      position: absolute;
+    width: 80%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .search-boxes {
   display: flex;
   border: 2px solid #e1e1e1;
   border-radius: 8px;
   padding: 0.5rem;
   background-color: var(--white);
+  justify-content: space-between;
 }
 
 .search-boxes .search-icon {
