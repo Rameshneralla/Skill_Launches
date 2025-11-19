@@ -911,3 +911,26 @@ margin-bottom: 1.5rem;
 .box-shadow{
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
+.jd-logo{
+      max-height: 200px;
+}
+.job-title-header{
+  font-weight: 700;
+  font-size: 26px;
+}
+.primary-color{
+  color: var(--primary-color);
+  
+}
+.related-jobs-logo{
+  max-width: 100px;
+}
+.related-job-card-header{
+  border-bottom: 1px solid #ecebff;
+}
+.related-job-card-body{
+      padding: 0.8rem 0.8rem 0.8rem 0.4rem;
+}
+.related-job-card-body h5{
+  font-size: 15px;
+}
