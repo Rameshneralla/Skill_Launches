@@ -42,7 +42,9 @@ body {
   border-color: var(--primary-color) !important;
   color: var(--white) !important;
 }
-
+.btn-secondary:hover > .back-icon{
+  filter: brightness(5) invert(5);
+}
 header {
   background-color: var(--white);
   position: fixed;
@@ -876,4 +878,33 @@ margin-bottom: 1.5rem;
   margin-right: 0 !important;
     max-width: 40px;
     vertical-align: text-top;
+}
+.landing-job{
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.7rem;
+}
+.job-title{
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0;
+  align-self: center;
+}
+.sub-info{
+  font-weight: 100;
+}
+.job-description-info{
+  padding-left: 0;
+  list-style: none;
+}
+.job-description-info .featured-tile{
+ margin: 0.8rem 0 0.2rem 0;
+}
+.back-icon{
+      width: 20px;
+      filter: brightness(0) saturate(100%) invert(17%) sepia(93%) saturate(6073%)
+          hue-rotate(239deg) brightness(88%) contrast(103%);
+          vertical-align: bottom;
 }
