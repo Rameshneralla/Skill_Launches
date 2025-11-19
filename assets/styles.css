@@ -908,3 +908,6 @@ margin-bottom: 1.5rem;
           hue-rotate(239deg) brightness(88%) contrast(103%);
           vertical-align: bottom;
 }
+.box-shadow{
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
