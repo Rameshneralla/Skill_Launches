@@ -601,6 +601,12 @@ p {
   background-color: var(--white);
   border-radius: 8px;
   padding: 0.8rem;
+  box-shadow: inset 0px 2px 6px 5px #4640de45;
+   transition: 0.3s;
+   cursor: pointer;
+}
+.home-banner-label:hover{
+     margin-top: -0.3rem;
 }
 
 .home-banner-label .label-icon {
@@ -933,4 +939,35 @@ margin-bottom: 1.5rem;
 }
 .related-job-card-body h5{
   font-size: 15px;
+}
+.overflow-content{
+max-height: 400px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+.landing-screen{
+  display: flex;
+}
+.jobs-menu{
+  width: 200px;
+}
+.job-view-area{
+  width: calc(100vw - 200px);
+}
+.about-us-icon{
+  max-width: 100px;
+  margin-bottom: 0.7rem;
+}
+.flow-section::after{
+  content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;              /* you MUST set height for background-image to appear */
+    background-image: url("../assets/images/setup-arrow.svg");
+    background-size: contain;   /* keeps SVG proportionate */
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;  
 }
