@@ -946,15 +946,8 @@ max-height: 400px;
 overflow-y: auto;
 overflow-x: hidden;
 }
-.landing-screen{
-  display: flex;
-}
-.jobs-menu{
-  width: 200px;
-}
-.job-view-area{
-  width: calc(100vw - 200px);
-}
+
+
 .about-us-icon{
   max-width: 100px;
   margin-bottom: 0.7rem;
